@@ -78,11 +78,11 @@ There are many PnP API’s.  There are some examples below that were performed p
 
 |  API  |  Operation  | Description  |
 |  ---  |  ---  |   ---  | 
-|  [/dna/intent/api/v1/onboarding/pnp-settings/savacct ](/dna/intent/api/v1/onboarding/pnp-settings/savacct )  |  POST | Add Virtual Account |
-|  [/dna/intent/api/v1/onboarding/pnp-workflow](/dna/intent/api/v1/onboarding/pnp-workflow )  |  POST  | Add a Workflow |
-|  [/dna/intent/api/v1/onboarding/pnp-device](/dna/intent/api/v1/onboarding/pnp-device)  |  POST  | Add a Device |
-|  [/dna/intent/api/v1/template-programmer/project](/dna/intent/api/v1/template-programmer/project)  |  POST  | Create Project |
-|  [/dna/system/api/v1/site](/dna/system/api/v1/site)  |  POST  | Create Site |
+|  [/dna/intent/api/v1/onboarding/pnp-settings/savacct ](https://pubhub.devnetcloud.com/media/dna-center-api-1210/docs/swagger_dnacp_1210.html#!/PnP/addVirtualAccount)  |  POST | Add Virtual Account |
+|  [/dna/intent/api/v1/onboarding/pnp-workflow](https://pubhub.devnetcloud.com/media/dna-center-api-1210/docs/swagger_dnacp_1210.html#!/PnP/addAWorkflow)  |  POST  | Add a Workflow |
+|  [/dna/intent/api/v1/onboarding/pnp-device](https://pubhub.devnetcloud.com/media/dna-center-api-1210/docs/swagger_dnacp_1210.html#!/PnP/addDeviceToPnpDatabase)  |  POST  | Add a Device |
+|  [/dna/intent/api/v1/template-programmer/project](https://pubhub.devnetcloud.com/media/dna-center-api-1210/docs/swagger_dnacp_1210.html#!/Template_Programmer/createProject)  |  POST  | Create Project |
+|  [/dna/system/api/v1/site](https://pubhub.devnetcloud.com/media/dna-center-api-1210/docs/swagger_dnacp_1210.html#!/Sites/createSite)  |  POST  | Create Site |
 
 The next PnP API is the one that was performed in this demo.  
 Claim devices to a site (that has a pre-defined workflow):
