@@ -185,6 +185,7 @@ git clone https://github.com/CiscoDevNet/automation-dashboard.git
 
 # Requirements
 Use pip to install the necessary requirements.
+
 ```sudo pip install -r requirements.txt```
 
 
