@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 Try the APIs from the Cisco Live Melbourne Technology Keynote. The demonstration at the keynote shows how one can create a Portal to automate common management controller tasks, to streamline operations across multiple management controllers.  This is done by leveraging the management controller’s Representational State Transfer (REST) APIs.  This demo leverages these REST API’s to configure devices in the Campus as well as in the Branch environment (across a WAN connection to the Campus).
 
@@ -8,7 +8,7 @@ This Github repository provides the necessary REST API calls to Cisco DNAC for c
 
 
 
-#Cisco DNAC and vManage Introduction
+# Cisco DNAC and vManage Introduction
 
 Cisco DNAC is a Campus network management controller used to manage, monitor and secure a campus environment.  DNAC secures campus environments by implementing a fabric(s), segment users within that fabric and implements group based-policies.  This part of the solution is called SD-Access.  Cisco DNAC can also be used to manage (push device configuration, upgrade device images) and monitor (through Assurance) both fabric and non-fabric environments.  Assurance monitors device, endpoint/client and application health.  
 
@@ -18,14 +18,14 @@ The Cisco SD-WAN fabric and solution connects users at the branch to application
 
 Cisco SD-WAN reduces complexity by having a single management interface (vManage) for both the network and security. Cisco SD-WAN Security capabilities include an application-aware enterprise firewall, Intrusion Prevention Security (IPS), DNS layer enforcement (Cisco Umbrella™), and URL filtering. 
 
-#Cisco DNAC and vManage REST APIs
+# Cisco DNAC and vManage REST APIs
 
 Both Cisco vManage controller and Cisco DNAC are open and programmable. With this open and programmability, you can access the available REST APIs, create API calls, obtain device and interface information using code, pass parameters and write applications and work on innovative solutions. 
 
 Learn more details at [vManage REST APIs documentation](https://developer.cisco.com/sdwan/) and [DNA Center Platform documentation](https://developer.cisco.com/site/dna-center-rest-api/) 
 
 
-#Installation of WebPortal to execute REST APIs to DNAC/vManage
+# Installation of WebPortal to execute REST APIs to DNAC/vManage
 
 On Ubuntu 18.04 VM with Python 2.7 Install the following packages
 
@@ -67,9 +67,9 @@ Then execute the following command
 
 Go to the browser and enter `https://<server_ip>:7000` for accessing the WebPortal.
 
-#API Operations
+# API Operations
 
-##DNAC Usecase 1- PnP Operations
+## DNAC Usecase 1- PnP Operations
 In the first use case, PnP is used to “claim” devices to a pre-defined workflow.  This process is used for day zero bootstrap configuration.  This workflow can be tailored to site, certain features, devices, etc.
 
 There are many PnP API’s.  There are some examples below that were performed prior to this demo.  These can be done via the API, manually or a process of automated DNAC steps. 
@@ -114,7 +114,7 @@ Demo Example:
 ```
 ![](DNAC_Usecase1.png)
 
-##DNAC UseCase 2 - Add Fabric Border to existing Fabric
+## DNAC UseCase 2 - Add Fabric Border to existing Fabric
 Once a fabric is created, we have the ability to add fabric borders that will connect to our Datacenter(s), WAN, Branch and other environments.  In the second use case, we are adding recenty claimed and provisioned devices to an existing fabric.
 
 NOTE: Base provisioning is necessary post PnP and before devices can be added to the Fabric.  This was not performed in this demo.  Additionally, API’s for adding Fabric Edge, WLC and Control Plane Node roles are not yet available in DNAC version 1.2.10.
@@ -162,7 +162,7 @@ Demo Example:
 
 
 
-##vManage Use Case 1- Add Intrusion Prevention System Policy:
+## vManage Use Case 1- Add Intrusion Prevention System Policy:
 In this demo, we are adding an IPS policy to an existing Security policy.  The following REST API will add an IPS policy to the existing SD-WAN security policy called “Greatwall_Policy” using the HTML web portal that you built.
 
 ```
@@ -176,14 +176,14 @@ Demo Example:
 
 ![](vManage_Usecase1.png)
 
-#Get the code
+# Get the code
 
 Clone the repository with the following command:
 
 git clone https://github.com/CiscoDevNet/automation-dashboard.git
 
 
-#Requirements
+# Requirements
 Use pip to install the necessary requirements.
 ```sudo pip install -r requirements.txt```
 
