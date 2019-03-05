@@ -1,2 +1,2 @@
-# automation-dashboard
-Use REST APIs to claim a network device and add it to an SD-WAN fabric 
+# Automation Dashboard
+Securing your Campus and WAN using Cisco DNA Center and vManage APIs.
