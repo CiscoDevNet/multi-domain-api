@@ -15,11 +15,11 @@ application.config['SECRET_KEY'] = 'DNAC_AMEC_UNIVERSITY'
 
 CORS(application)
 
-server_ip = 'https://173.36.197.119'
-sdwan_base_url = 'https://sdwan-sj06.cisco.com:8443'
+server_ip = 'https://xx.xx.xx.xx'
+sdwan_base_url = 'https://xx.xx.xx.xx:8443'
 headers = {'content-type': 'application/json'}
-sdwan_username = 'vimoreno'
-sdwan_pass = 'C1sco123'
+sdwan_username = 'user'
+sdwan_pass = 'password'
 login_action = '/j_security_check'
 login_data = {'j_username': sdwan_username, 'j_password': sdwan_pass}
 auth = HTTPBasicAuth(sdwan_username, sdwan_pass)
