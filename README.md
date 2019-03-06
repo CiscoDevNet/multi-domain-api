@@ -156,7 +156,7 @@ Demo Example:
 [  {    "deviceManagementIpAddress": "10.0.255.34",    ”siteHierarchy”: Australia,Victoria,Melbourne,MEL03”,"externalDomainRoutingProtocolName": ”BGP", "internalAutonomouSystemNumber":”BGPUplink”, "internalAutonomouSystemNumber": ”65000”,"borderSessionType": ”Anywhere",   "connectedToInternet": true,    "externalConnectivitySettings": [      {        "interfaceName": ”Interface TenGigabitEthernet1/0/12",        "externalAutonomouSystemNumber": ”65001",        "l3Handoff": [          {            "virtualNetwork": {              "virtualNetworkName": ”Campus"            }          }        ]      }    ]  }]
 ```
 
-![](DNA Center_Usecase2.png)
+![](DNAC_Usecase2.png)
 
 
 
