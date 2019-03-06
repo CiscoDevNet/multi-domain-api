@@ -38,7 +38,7 @@ sudo apt-get install python-pip
 
 Clone the repository with the following command:
 
-`git clone https://github.com/CiscoDevNet/automation-dashboard.git`
+`git clone https://github.com/CiscoDevNet/multi-domain-api.git`
 
 and then go to WebPortal directory.
 
@@ -184,7 +184,7 @@ Demo Example:
 # Get the code
 
 Clone the repository with the following command:
-`git clone https://github.com/CiscoDevNet/automation-dashboard.git`
+`git clone https://github.com/CiscoDevNet/multi-domain-api.git`
 
 
 # Requirements
