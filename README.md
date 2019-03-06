@@ -18,14 +18,14 @@ Cisco SD-WAN reduces complexity by having a single management interface (vManage
 
 # Cisco DNA Center and vManage REST APIs
 
-Both Cisco vManage controller and Cisco DNA Center are open and programmable. With this open and programmability, you can access the available REST APIs, create API calls, obtain device and interface information using code, pass parameters and write applications and work on innovative solutions.
+Both Cisco vManage controller and Cisco DNA Center are open and programmable. With this openness and programmability, you can access the available REST APIs, create API calls, obtain device and interface information using code, pass parameters and write applications, and work on innovative solutions.
 
-Learn more details at [vManage REST APIs documentation](https://developer.cisco.com/sdwan/) and [Cisco DNA Center Platform documentation](https://developer.cisco.com/site/dna-center-rest-api/)
+Learn more details at [vManage REST APIs documentation](https://developer.cisco.com/sdwan/) and [Cisco DNA Center Platform documentation](https://developer.cisco.com/site/dna-center-rest-api/).
 
 
 # Installation of WebPortal to execute REST APIs to Cisco DNA Center/vManage
 
-On Ubuntu 18.04 VM with Python 2.7 Install the following packages:
+On Ubuntu 18.04 VM with Python 2.7, install the following packages:
 
 ```
 sudo apt-get install -y nodejs
