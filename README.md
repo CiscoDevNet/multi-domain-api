@@ -188,6 +188,11 @@ Clone the repository with the following command:
 
 
 # Requirements
-Use pip to install the necessary requirements.
 
-```sudo pip install -r requirements.txt```
+- Use pip to install the necessary requirements.
+
+  ```sudo pip install -r requirements.txt```
+
+- Cisco DNAC 1.2.10 is required for the new intent based APIs (fabric component)
+- Cisco DNAC requires the Cisco DNAC Platform application to be installed. Details on how to install this can be found [here](https://www.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/dna-center/1-2-10/admin/guide/b_dnac_admin_guide_1_2_10/b_dnac_admin_guide_1_2_10_chapter_0100.html).
+
